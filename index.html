@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма для отправки данных клиента</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <p><label for="name"><strong>Имя:</strong></label>
+            <input id="user" name="username" type="text" placeholder="Имя"></p>
+        <p><label for="name"><strong>Телефон:</strong></label>
+            <input id="tel" name="tel" type="tel" placeholder="XXX-XX-XX"></p>
+        <p><label for="name"><strong>E-mail:</strong></label>
+            <input type="text" name="email" placeholder="email@example.com"></p>
+        <p><label for="name"><strong>Пароль:</strong></label>
+            <input type="password" placeholder="Пароль"></p><br>
+        <textarea name="text">Опишите себя:</textarea>
+        <div>
+            <label for="text"><strong>Выберите страну:</strong></label>
+                <label><input type="radio" name="country">Беларусь</label>
+                <label><input type="radio" name="country">Россия</label>
+                <label><input type="radio" name="country">Украина</label>
+                <label><input type="radio" name="country">Польша</label>
+        </div>
+        <p><input type="submit" value="Отправить"></p>
+        <p><input type="reset" value="Очистить"></p>
+    </form>
+</body>
+</html>
